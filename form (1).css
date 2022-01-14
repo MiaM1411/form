@@ -1,0 +1,168 @@
+body {
+
+    font-size: 100%;
+    font-family: "PT Sans", sans-serif;
+    color: #505260;
+    list-style:none;
+    margin: 0;
+    bottom: 0;
+    text-decoration: none;
+    
+    
+  }
+  a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    
+  }
+  
+  
+  
+  input, textarea {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    
+  }
+  input::-ms-clear, textarea::-ms-clear {
+    display: none;
+    list-style-type: none;
+  }
+  
+.glavmenus {
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    list-style:none;
+    background: linear-gradient(180deg, #000000 0%, #373737 100%);
+  border: 0px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 0px rgba(170, 170, 170, 0.08);
+  }
+
+.footer{
+    position: absolute;;
+    position: absolute;
+    top: 200%;
+    height:30%;
+    width:100%;
+    background-color: #2C2C2C;
+    display: block;
+    clear: both;
+      
+  }
+  .footer .fa-cubes{
+    position: absolute;
+    top:13%;
+    left: 7%;
+  }
+  .footer .navbar-logo{
+  position: absolute;
+  left: 10%;
+  top: 6%;
+  
+  }
+
+  .form-add{
+    position: absolute;
+    background-color: #dfdfdf;
+    width: 90%;
+    height: 800%;
+    top: 200%;
+    left: 5%;
+    border-radius: 20px;
+}
+.company{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 6%;
+    font-family: Century Gothic;
+    color: rgb(56, 56, 56);
+}
+.company-input{
+    position: absolute;
+    top: 4.6%;
+    left: 18%;
+    width: 25%;
+    padding: 3px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+.description{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 17%;
+    font-family: Century Gothic;
+    color: rgb(56, 56, 56);
+}
+.description-input{
+    position: absolute;
+    top: 16.6%;
+    left: 18%;
+    width: 25%;
+    padding: 3px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+.date{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 31.5%;
+    font-family: Century Gothic;
+    color: rgb(56, 56, 56);
+}
+.date-input{
+    position: absolute;
+    top: 30.6%;
+    left: 16%;
+    width: 25%;
+    padding: 3px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+.price{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 50%;
+    font-family: Century Gothic;
+    color: rgb(56, 56, 56);
+}
+.price-input{
+    position: absolute;
+    top: 49.6%;
+    left: 16%;
+    width: 25%;
+    padding: 3px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(250, 100, 0);
+    
+}

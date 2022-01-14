@@ -1,0 +1,140 @@
+body {
+
+    font-size: 100%;
+    font-family: "PT Sans", sans-serif;
+    color: #505260;
+    list-style:none;
+    margin: 0;
+    bottom: 0;
+    text-decoration: none;
+    
+    
+  }
+  a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    
+  }
+  
+  
+  
+  input, textarea {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    
+  }
+  input::-ms-clear, textarea::-ms-clear {
+    display: none;
+    list-style-type: none;
+  }
+  
+.glavmenus {
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    list-style:none;
+    background: linear-gradient(180deg, #000000 0%, #373737 100%);
+  border: 0px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 0px rgba(170, 170, 170, 0.08);
+  }
+
+.footer{
+    position: absolute;;
+    position: absolute;
+    top: 200%;
+    height:30%;
+    width:100%;
+    background-color: #2C2C2C;
+    display: block;
+    clear: both;
+      
+  }
+  .footer .fa-cubes{
+    position: absolute;
+    top:13%;
+    left: 7%;
+  }
+  .footer .navbar-logo{
+  position: absolute;
+  left: 10%;
+  top: 6%;
+  
+  }
+
+.container{
+    position: absolute;
+    width: 75%;
+    height: 318%;
+    top: 140%;
+    left:13% ;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 15px;
+  
+  }
+.name-company {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-size: 18px;
+    font-weight: 200;
+}
+.number{
+  position: absolute;
+    left: 5%;
+    top: 22%;
+    font-size: 18px;
+    font-weight: 200;
+}
+.button{
+  position: absolute;
+  left:25%;
+  top:10%;
+  width: 25%;
+  background-color: #FFF;
+  outline: none;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+}
+.description{
+  position: absolute;
+  font-size: 18px;
+  top: 39%;
+  left: 5%;
+  font-weight: 200;
+
+}
+.date{
+  position: absolute;
+  font-size: 18px;
+  font-weight: 200;
+  top: 75%;
+  left: 5%;
+}
+.price-contract{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  top: 5%;
+  left: 80%;
+}
+.price{
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  top: 25%;
+  left: 80%;
+}
+
+
+.line{
+  position: absolute;
+  border-left: 2px solid rgb(168, 168, 168);
+  height: 172px;
+  left: 75%;
+}
